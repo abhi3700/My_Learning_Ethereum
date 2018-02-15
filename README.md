@@ -23,3 +23,4 @@ Unlike Bitcoin, Ethereum is a programmable (Smart Contract) Blockchain platform.
 * Learning Solidity Part 1: Contract Dev with MetaMask - https://karl.tech/learning-solidity-part-1-deploy-a-contract/
 * Learning Solidity Part 2: Commit-Reveal Voting - https://karl.tech/learning-solidity-part-2-voting/
 * Developing Ethereum Smart Contracts for Beginners - https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners
+* ethers.js - https://docs.ethers.io/ethers.js/html/index.html
