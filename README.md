@@ -1,4 +1,4 @@
-# My_Learning-Ethereum
+# My_Learning_Ethereum
 Unlike Bitcoin, Ethereum is a programmable (Smart Contract) Blockchain platform.
 
 ## Software tools
