@@ -13,7 +13,11 @@ Ethereum (including all sidechains) resources available here.
 
 ### Ethereum
 * [ ] Mainnet Chain API
-* [ ] Testnet Chain API
+	+ [Get your API key for Web3.js or Web.py](https://infura.io/dashboard)
+* [x] Testnet Chain API
+	- Ropsten Ethereum
+		+ [Faucet](https://faucet.ropsten.be/)
+		+ [Get your API key for Web3.js or Web.py](https://infura.io/dashboard)
 
 ### Polygon
 * [ ] Mainnet Chain API
