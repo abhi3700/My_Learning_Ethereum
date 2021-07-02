@@ -74,10 +74,11 @@ Ethereum (including all sidechains) resources available here.
 * Ethereum Zero to Hero: Developing Our First Contract - https://coderoncode.com/blockchain/2017/12/24/ethereum-zero-to-hero-developing-our-first-contract.html
 * Ethereum blogs - https://karl.tech/
 * Blockgeeks Blogs -
-  * How To Code A Decentralized Applications or Dapps - https://blockgeeks.com/guides/decentralized-applications/
-  * The Best Tools for Smart Contract Development - https://blockgeeks.com/guides/smart-contract-development/
-  * The Best Blockchain Developer Tools - https://blockgeeks.com/blockchain-developer-tools/
-  * The Best Tools for Smart Contract Development (Part 2) - https://blockgeeks.com/guides/smart-contract-development-part-2/
+  - How To Code A Decentralized Applications or Dapps - https://blockgeeks.com/guides/decentralized-applications/
+  - The Best Tools for Smart Contract Development - https://blockgeeks.com/guides/smart-contract-development/
+  - The Best Blockchain Developer Tools - https://blockgeeks.com/blockchain-developer-tools/
+  - The Best Tools for Smart Contract Development (Part 2) - https://blockgeeks.com/guides/smart-contract-development-part-2/
+* EthOn — introducing semantic Ethereum - https://media.consensys.net/ethon-introducing-semantic-ethereum-15f1f0696986#.t9ltrq9xy
 
 ## TO_READ
 
