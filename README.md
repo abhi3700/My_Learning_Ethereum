@@ -58,6 +58,7 @@ Ethereum (including all sidechains) resources available here.
 * Developing Ethereum Smart Contracts for Beginners - https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners
 * ethers.js - https://docs.ethers.io/ethers.js/html/index.html
 * Learn basic functions in Solidity & JS- https://github.com/panacloud/learn-dapps
+* [Solidity by Example](https://solidity-by-example.org/)
 * [From Solidity to EOS contract development](https://www.programmersought.com/article/6940225644/)
 
 
