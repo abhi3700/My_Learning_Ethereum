@@ -67,6 +67,7 @@ Ethereum (including all sidechains) resources available here.
 ## Ethereum Programming API
 
 ## Repositories
+* Blockchain-based puzzle game - https://github.com/upstateinteractive/blockchain-puzzle
 
 ## Blogs, News articles
 * Android "Hello world" implementation - https://github.com/noev/Android-Ethereum-Hello-World
