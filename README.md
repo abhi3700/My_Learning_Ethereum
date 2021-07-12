@@ -4,31 +4,72 @@ Ethereum (including all sidechains) resources available here.
 ## My Ethereum Projects
 
 ## Development
+* [etherjs](https://docs.ethers.io/v5/)
+* [Web3.js](https://web3js.readthedocs.io/en/v1.3.4/)
+* Python-Ethereum  - [Docs](http://web3py.readthedocs.io/en/stable/), [Github](https://github.com/ethereum/web3.py)
 * Web3j: Java API for Ethereum - [Github](https://github.com/web3j/web3j), [Wiki](https://web3j.readthedocs.io/en/latest/)
 * Go-Ethereum - [Docs](https://godoc.org/github.com/ethereum/go-ethereum), [Github](https://github.com/ethereum/go-ethereum)
-* Python-Ethereum  - [Docs](http://web3py.readthedocs.io/en/stable/), [Github](https://github.com/ethereum/web3.py)
 * Truffle Framework - http://truffleframework.com/docs/
 * pyethereum: python core library for Ethereum project - [Github](https://github.com/ethereum/pyethereum)
 * pyethapp: python based command line client - [Github](https://github.com/ethereum/pyethapp)
 
-### Ethereum
-* [ ] Mainnet Chain API
-	+ [Get your API key for Web3.js or Web.py](https://infura.io/dashboard)
-* [x] Testnet Chain API
-	- Ropsten Ethereum
-		+ [Faucet](https://faucet.ropsten.be/)
-		+ [Get your API key for Web3.js or Web.py](https://infura.io/dashboard)
+### Chains
+#### Ethereum
+* Mainnet Chain API
+	+ Get your API key for Web3.js or Web.py
+		- https://infura.io/dashboard
+		- https://admin.moralis.io/speedyNodes
+* Testnet Chain API
+	- __Rinkeby__
+		+ Get faucet from [here](https://www.rinkeby.io/#faucet)
+		+ Get your API key for Web3.js or Web.py
+			- https://infura.io/dashboard
+			- https://admin.moralis.io/speedyNodes
+	- __Ropsten__
+		+ Get faucet from [here](https://faucet.ropsten.be/)
+		+ Get your API key for Web3.js or Web.py
+			- https://infura.io/dashboard
+			- https://admin.moralis.io/speedyNodes
 
-### Polygon
-* [ ] Mainnet Chain API
-* [ ] Testnet Chain API
+#### Polygon
+* Mainnet Chain API
+	+ Get your API key for Web3.js or Web.py
+		- https://infura.io/dashboard
+		- https://admin.moralis.io/speedyNodes
+* Testnet Chain API
+	+ Get your API key for Web3.js or Web.py
+		- https://infura.io/dashboard
+		- https://admin.moralis.io/speedyNodes
 
-### Binance Smart Chain (BSC)
-* [ ] Mainnet Chain API
-* [ ] Testnet Chain API
+#### Binance Smart Chain (BSC)
+* Mainnet Chain API
+	+ Get your API key for Web3.js or Web.py
+		- https://infura.io/dashboard
+		- https://admin.moralis.io/speedyNodes
+* Testnet Chain API
+	+ Get your API key for Web3.js or Web.py
+		- https://infura.io/dashboard
+		- https://admin.moralis.io/speedyNodes
 
-### Ethereum protocol History Tools
-* [ ] History API
+#### Arbitrum
+* Mainnet Chain API
+	+ Get your API key for Web3.js or Web.py
+		- https://infura.io/dashboard
+		- https://admin.moralis.io/speedyNodes
+* Testnet Chain API
+	- __Rinkeby__
+		+ Get faucet from [here](https://www.rinkeby.io/#faucet)
+		+ Get your API key for Web3.js or Web.py
+			- https://infura.io/dashboard
+			- https://admin.moralis.io/speedyNodes
+
+
+### History Tools
+* Ethereum
+	- [mainnet](https://admin.moralis.io/speedyNodes)
+	- testnet:
+		+ [Rinkeby](https://admin.moralis.io/speedyNodes)
+		+ [Ropsten](https://admin.moralis.io/speedyNodes)
 
 ### Others
 
@@ -60,11 +101,12 @@ Ethereum (including all sidechains) resources available here.
 * Learn basic functions in Solidity & JS- https://github.com/panacloud/learn-dapps
 * [Solidity by Example](https://solidity-by-example.org/)
 * [From Solidity to EOS contract development](https://www.programmersought.com/article/6940225644/)
+* [Learning Solidity From Basics - YouTube](https://youtube.com/playlist?list=PLFPZ8ai7J-iTJDENUIY40VsU_5Wmxkr7j)
 
+### Vyper
+* [Vyper Programming Tutorials - YouTube](https://youtube.com/playlist?list=PLFPZ8ai7J-iQMTChqif-XVP8DYABA4rx1)
 
 ## Hackathons
-
-## Ethereum Programming API
 
 ## Repositories
 * Blockchain-based puzzle game - https://github.com/upstateinteractive/blockchain-puzzle
