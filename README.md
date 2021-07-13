@@ -19,49 +19,58 @@ Ethereum (including all sidechains) resources available here.
 	+ Get your API key for Web3.js or Web.py
 		- https://infura.io/dashboard
 		- https://admin.moralis.io/speedyNodes
+		- https://www.alchemyapi.io
 * Testnet Chain API
 	- __Rinkeby__
 		+ Get faucet from [here](https://www.rinkeby.io/#faucet)
 		+ Get your API key for Web3.js or Web.py
 			- https://infura.io/dashboard
 			- https://admin.moralis.io/speedyNodes
+			- https://www.alchemyapi.io
 	- __Ropsten__
 		+ Get faucet from [here](https://faucet.ropsten.be/)
 		+ Get your API key for Web3.js or Web.py
 			- https://infura.io/dashboard
 			- https://admin.moralis.io/speedyNodes
+			- https://www.alchemyapi.io
 
 #### Polygon
 * Mainnet Chain API
 	+ Get your API key for Web3.js or Web.py
 		- https://infura.io/dashboard
 		- https://admin.moralis.io/speedyNodes
+		- https://www.alchemyapi.io
 * Testnet Chain API
 	+ Get your API key for Web3.js or Web.py
 		- https://infura.io/dashboard
 		- https://admin.moralis.io/speedyNodes
+		- https://www.alchemyapi.io
 
 #### Binance Smart Chain (BSC)
 * Mainnet Chain API
 	+ Get your API key for Web3.js or Web.py
 		- https://infura.io/dashboard
 		- https://admin.moralis.io/speedyNodes
+		- https://www.alchemyapi.io
 * Testnet Chain API
 	+ Get your API key for Web3.js or Web.py
 		- https://infura.io/dashboard
 		- https://admin.moralis.io/speedyNodes
+		- https://www.alchemyapi.io
 
 #### Arbitrum
 * Mainnet Chain API
 	+ Get your API key for Web3.js or Web.py
 		- https://infura.io/dashboard
 		- https://admin.moralis.io/speedyNodes
+		- https://www.alchemyapi.io
 * Testnet Chain API
 	- __Rinkeby__
 		+ Get faucet from [here](https://www.rinkeby.io/#faucet)
 		+ Get your API key for Web3.js or Web.py
 			- https://infura.io/dashboard
 			- https://admin.moralis.io/speedyNodes
+			- https://www.alchemyapi.io
 
 
 ### History Tools
@@ -102,9 +111,14 @@ Ethereum (including all sidechains) resources available here.
 * [Solidity by Example](https://solidity-by-example.org/)
 * [From Solidity to EOS contract development](https://www.programmersought.com/article/6940225644/)
 * [Learning Solidity From Basics - YouTube](https://youtube.com/playlist?list=PLFPZ8ai7J-iTJDENUIY40VsU_5Wmxkr7j)
+* [Voting contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#voting)
+* [Bling Auction contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#blind-auction)
+* [Safe Remote Purchase contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#safe-remote-purchase)
+* [Micropayment channel](https://docs.soliditylang.org/en/latest/solidity-by-example.html#micropayment-channel)
 
 ### Vyper
 * [Vyper Programming Tutorials - YouTube](https://youtube.com/playlist?list=PLFPZ8ai7J-iQMTChqif-XVP8DYABA4rx1)
+* [Learn Vyper Programming - YouTube](https://www.youtube.com/watch?v=-kZpEmNnzyE&list=PLO5VPQH6OWdWOd-IJTfIzlM2a1yv1rSN-)
 
 ## Hackathons
 
