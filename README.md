@@ -127,6 +127,7 @@ Ethereum (including all sidechains) resources available here.
 * Blockchain-based puzzle game - https://github.com/upstateinteractive/blockchain-puzzle
 * DeFi Developer Road Map - https://github.com/OffcierCia/DeFi-Developer-Road-Map#basics
 * A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine - https://github.com/eth-brownie/brownie
+* Solidity Baby steps - https://github.com/cyrusadkisson/solidity-baby-steps
 
 ## Blogs, News articles
 * Android "Hello world" implementation - https://github.com/noev/Android-Ethereum-Hello-World
