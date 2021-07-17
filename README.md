@@ -20,6 +20,7 @@ Ethereum (including all sidechains) resources available here.
 		- https://infura.io/dashboard
 		- https://admin.moralis.io/speedyNodes
 		- https://www.alchemyapi.io
+	+ Gas calc - https://ethgasstation.info/calculatorTxV.php
 * Testnet Chain API
 	- __Rinkeby__
 		+ Get faucet from [here](https://www.rinkeby.io/#faucet)
@@ -124,6 +125,8 @@ Ethereum (including all sidechains) resources available here.
 
 ## Repositories
 * Blockchain-based puzzle game - https://github.com/upstateinteractive/blockchain-puzzle
+* DeFi Developer Road Map - https://github.com/OffcierCia/DeFi-Developer-Road-Map#basics
+* A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine - https://github.com/eth-brownie/brownie
 
 ## Blogs, News articles
 * Android "Hello world" implementation - https://github.com/noev/Android-Ethereum-Hello-World
