@@ -82,6 +82,7 @@ Ethereum (including all sidechains) resources available here.
 		+ [Ropsten](https://admin.moralis.io/speedyNodes)
 
 ### Others
+* Multi-signature wallet: https://gnosis-safe.io/app/#/welcome
 
 ## Ethereum DApps
 
@@ -128,6 +129,21 @@ Ethereum (including all sidechains) resources available here.
 * DeFi Developer Road Map - https://github.com/OffcierCia/DeFi-Developer-Road-Map#basics
 * A Python-based development and testing framework for smart contracts targeting the Ethereum Virtual Machine - https://github.com/eth-brownie/brownie
 * Solidity Baby steps - https://github.com/cyrusadkisson/solidity-baby-steps
+* MultiOwnable contract for Ether & ERC20 Token - https://github.com/bitclave/Multiownable, [Medium](https://medium.com/bitclave/ethereum-multiownable-smart-contract-68af867585a8)
+* Splitter contract - https://github.com/critesjosh/Splitter
+* Simple Bank contract - https://github.com/ConsenSys-Academy/simple-bank-exercise
+* supply chain contract - https://github.com/ConsenSys-Academy/supply-chain-exercise
+* Experimental Upgradable Contract Framework with user opt-in/out upgrades - https://github.com/rob-Hitchens/TrustlessUpgrades
+* Enumerable Set Types (key: bytes32, string, address, uint256) - https://github.com/rob-Hitchens/SetTypes
+* Self-Balancing Binary Search Tree with Order Statistics - https://github.com/rob-Hitchens/OrderStatisticsTree
+* BokkyPooBah's Red-Black Binary Search Tree Library - https://github.com/bokkypoobah/BokkyPooBahsRedBlackTreeLibrary
+* CRUD contract - https://bitbucket.org/rhitchens2/soliditycrud/src/master/
+* Remittance contract - https://github.com/nunomarks/remittance-contract
+* Remittance by B9 Lab - https://github.com/gomesandre/HubAndSpoke
+* Smoothy by Smooth Finance - https://github.com/smoothyfinance/smoothy-contract
+* A Red-Black tree based Navigable Order Static TreeMap in Solidity - https://github.com/saurfang/solidity-treemap
+* Rock Paper Scissors contract - https://github.com/furqanbaqai/RockPaperScissorsContract
+* Directed Graph - https://github.com/rob-Hitchens/GraphLib
 
 ## Blogs, News articles
 * Android "Hello world" implementation - https://github.com/noev/Android-Ethereum-Hello-World
@@ -142,5 +158,12 @@ Ethereum (including all sidechains) resources available here.
   - The Best Tools for Smart Contract Development (Part 2) - https://blockgeeks.com/guides/smart-contract-development-part-2/
 * EthOn — introducing semantic Ethereum - https://media.consensys.net/ethon-introducing-semantic-ethereum-15f1f0696986#.t9ltrq9xy
 
-## TO_READ
+## Developers to follow
+* [Rob Hitchens](https://github.com/rob-Hitchens)
+
+## Organizations to follow
+* 
+
+## Books
+* [Mastering Ethereum, by Andreas M. Antonopoulos, Gavin Wood](https://github.com/ethereumbook/ethereumbook)
 
