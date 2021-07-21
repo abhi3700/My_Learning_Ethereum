@@ -81,8 +81,9 @@ Ethereum (including all sidechains) resources available here.
 		+ [Rinkeby](https://admin.moralis.io/speedyNodes)
 		+ [Ropsten](https://admin.moralis.io/speedyNodes)
 
-### Others
+## Tools
 * Multi-signature wallet: https://gnosis-safe.io/app/#/welcome
+* View private variables in a contract - https://github.com/realdiganta/evm-storage-crawler
 
 ## Ethereum DApps
 
@@ -117,6 +118,20 @@ Ethereum (including all sidechains) resources available here.
 * [Bling Auction contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#blind-auction)
 * [Safe Remote Purchase contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#safe-remote-purchase)
 * [Micropayment channel](https://docs.soliditylang.org/en/latest/solidity-by-example.html#micropayment-channel)
+* DApp University Smart Contract Series:
+	- [Build a Real World ICO - #1 Real World ICO on Ethereum](https://www.youtube.com/watch?v=2IqsgSyA8BQ)
+	- [Build a Mintable Token - #2 Real World ICO on Ethereum](https://www.youtube.com/watch?v=ir-IRmMTG4Q)
+	- [Build a Crowdsale Smart Contract - #3 Real World ICO on Ethereum](https://www.youtube.com/watch?v=wfzTtbZEJP8)
+	- [Build a Minted Crowdsale with Smart Contacts - #4 Real World ICO on Ethereum](https://www.youtube.com/watch?v=tb6YPyeRObg)
+	- [Build a Capped Crowdsale with Smart Contacts - #5 Real World ICO on Ethereum](https://www.youtube.com/watch?v=w8UwS2VwBTQ)
+	- [Build a Timed Crowdsale with Smart Contacts - #6 Real World ICO on Ethereum](https://www.youtube.com/watch?v=-CIw7vnVrAA)
+	- [Build a Whitelisted Crowdsale with Smart Contacts - #7 Real World ICO on Ethereum](https://www.youtube.com/watch?v=4yUxgOJKYOM)
+	- [Build a Refundable Crowdsale with Smart Contacts - #8 Real World ICO on Ethereum](https://www.youtube.com/watch?v=5otDOi86y3I)
+	- [Create an ICO Presale with Smart Contracts - #9 Real World ICO on Ethereum](https://www.youtube.com/watch?v=uPeRwDvkuCs)
+	- [Create Token Distribution with Smart Contracts - #11 Real World ICO on Ethereum](https://www.youtube.com/watch?v=k10F8n-jRE4)
+	- [Create Token Vesting with Smart Contracts - #12 Real World ICO on Ethereum](https://www.youtube.com/watch?v=NxzJiGPyyLw)
+	- [Deploy Crowdsale Smart Contracts - #13 Real World ICO on Ethereum](https://www.youtube.com/watch?v=MYrX3DtKwak)
+
 
 ### Vyper
 * [Vyper Programming Tutorials - YouTube](https://youtube.com/playlist?list=PLFPZ8ai7J-iQMTChqif-XVP8DYABA4rx1)
