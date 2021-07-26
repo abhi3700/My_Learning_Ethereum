@@ -84,6 +84,7 @@ Ethereum (including all sidechains) resources available here.
 ## Tools
 * Multi-signature wallet: https://gnosis-safe.io/app/#/welcome
 * View private variables in a contract - https://github.com/realdiganta/evm-storage-crawler
+* Online ABI Encoding Service - https://abi.hashex.org/#
 
 ## Ethereum DApps
 
@@ -159,6 +160,7 @@ Ethereum (including all sidechains) resources available here.
 * A Red-Black tree based Navigable Order Static TreeMap in Solidity - https://github.com/saurfang/solidity-treemap
 * Rock Paper Scissors contract - https://github.com/furqanbaqai/RockPaperScissorsContract
 * Directed Graph - https://github.com/rob-Hitchens/GraphLib
+* RVOL makes on-chain volatility data accessible - https://github.com/ribbon-finance/rvol
 
 ## Blogs, News articles
 * Android "Hello world" implementation - https://github.com/noev/Android-Ethereum-Hello-World
