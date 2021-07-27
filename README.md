@@ -85,6 +85,9 @@ Ethereum (including all sidechains) resources available here.
 * Multi-signature wallet: https://gnosis-safe.io/app/#/welcome
 * View private variables in a contract - https://github.com/realdiganta/evm-storage-crawler
 * Online ABI Encoding Service - https://abi.hashex.org/#
+* Oracle Service
+	- Price Feed: https://docs.chain.link/docs/using-chainlink-reference-contracts/
+	- Random no.: https://docs.chain.link/docs/intermediates-tutorial/
 
 ## Ethereum DApps
 
