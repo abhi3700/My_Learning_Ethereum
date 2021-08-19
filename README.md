@@ -3,6 +3,16 @@ Ethereum (including all sidechains) resources available here.
 
 ## My Ethereum Projects
 
+## Official Repo (by Ethereum Foundation)
+* [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
+* [Developer portal](https://ethereum.org/en/developers/)
+* [ETHEREUM DEVELOPMENT DOCUMENTATION](https://ethereum.org/en/developers/docs/)
+* [ETHEREUM DEVELOPMENT TUTORIALS](https://ethereum.org/en/developers/tutorials/)
+* [Learn by Coding](https://ethereum.org/en/developers/learning-tools/)
+* [Solidity Template](https://github.com/paulrberg/solidity-template) - Combines Hardhat, TypeChain, Ethers, Waffle, Solhint, Solcover and Prettier
+* [SET UP YOUR LOCAL DEVELOPMENT ENVIRONMENT](https://ethereum.org/en/developers/local-environment/)
+* [Ethereum Grants](https://ethereum.org/en/community/grants/)
+
 ## Development
 * [etherjs](https://docs.ethers.io/v5/)
 * [Web3.js](https://web3js.readthedocs.io/en/v1.3.4/)
@@ -72,6 +82,9 @@ Ethereum (including all sidechains) resources available here.
 			- https://infura.io/dashboard
 			- https://admin.moralis.io/speedyNodes
 			- https://www.alchemyapi.io
+* Developer portal - https://developer.offchainlabs.com/docs/developer_quickstart
+* Github - https://github.com/OffchainLabs
+* Medium - https://offchain.medium.com/
 
 
 ### History Tools
@@ -164,6 +177,7 @@ Ethereum (including all sidechains) resources available here.
 * Rock Paper Scissors contract - https://github.com/furqanbaqai/RockPaperScissorsContract
 * Directed Graph - https://github.com/rob-Hitchens/GraphLib
 * RVOL makes on-chain volatility data accessible - https://github.com/ribbon-finance/rvol
+* Command line utility for Gnosis Safe - https://github.com/gnosis/safe-cli
 
 ## Blogs, News articles
 * Android "Hello world" implementation - https://github.com/noev/Android-Ethereum-Hello-World
