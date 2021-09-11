@@ -135,6 +135,7 @@ Ethereum (including all sidechains) resources available here.
 * [Bling Auction contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#blind-auction)
 * [Safe Remote Purchase contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#safe-remote-purchase)
 * [Micropayment channel](https://docs.soliditylang.org/en/latest/solidity-by-example.html#micropayment-channel)
+* [LearnETH by Remix](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.6.12+commit.27d51765.js)
 * DApp University Smart Contract Series:
 	- [Build a Real World ICO - #1 Real World ICO on Ethereum](https://www.youtube.com/watch?v=2IqsgSyA8BQ)
 	- [Build a Mintable Token - #2 Real World ICO on Ethereum](https://www.youtube.com/watch?v=ir-IRmMTG4Q)
