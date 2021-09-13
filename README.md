@@ -179,6 +179,7 @@ Ethereum (including all sidechains) resources available here.
 * Directed Graph - https://github.com/rob-Hitchens/GraphLib
 * RVOL makes on-chain volatility data accessible - https://github.com/ribbon-finance/rvol
 * Command line utility for Gnosis Safe - https://github.com/gnosis/safe-cli
+* Source code for Eat The Blocks, a screencast for Ethereum Dapp Developers - https://github.com/jklepatch/eattheblocks
 
 ## Blogs, News articles
 * Android "Hello world" implementation - https://github.com/noev/Android-Ethereum-Hello-World
