@@ -95,6 +95,13 @@ Ethereum (including all sidechains) resources available here.
 		+ [Ropsten](https://admin.moralis.io/speedyNodes)
 
 ## Tools
+* Block Explorers
+	- https://etherscan.io/
+	- https://blockscout.com/xdai/mainnet/
+	- https://blockchair.com/ethereum
+	- https://etherchain.org/
+	- https://ethplorer.io/
+	- https://live.blockcypher.com/eth/
 * Multi-signature wallet: https://gnosis-safe.io/app/#/welcome
 * View private variables in a contract - https://github.com/realdiganta/evm-storage-crawler
 * Online ABI Encoding Service - https://abi.hashex.org/#
