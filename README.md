@@ -108,6 +108,7 @@ Ethereum (including all sidechains) resources available here.
 * Oracle Service
 	- Price Feed: https://docs.chain.link/docs/using-chainlink-reference-contracts/
 	- Random no.: https://docs.chain.link/docs/intermediates-tutorial/
+* Bytecode to Opcode converter tool: https://etherscan.io/opcode-tool
 
 ## Ethereum DApps
 
