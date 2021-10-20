@@ -2,6 +2,9 @@
 Ethereum (including all sidechains) resources available here.
 
 ## My Ethereum Projects
+* [EVM Playground](https://github.com/abhi3700/evm_playground)
+* [Create a Vault where the collateral & debt amount is managed via borrowing & repayment by user](https://github.com/abhi3700/evm_contracts_vaultscoin)
+* [Find out the avg price of a token for a given time interval range, without iterating in `for-loop`](https://github.com/abhi3700/evm_contracts_strips)
 
 ## Official Repo (by Ethereum Foundation)
 * [Ethereum Whitepaper](https://ethereum.org/en/whitepaper/)
