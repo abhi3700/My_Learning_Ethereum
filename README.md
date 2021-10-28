@@ -160,7 +160,7 @@ Ethereum (including all sidechains) resources available here.
 	- [Create Token Distribution with Smart Contracts - #11 Real World ICO on Ethereum](https://www.youtube.com/watch?v=k10F8n-jRE4)
 	- [Create Token Vesting with Smart Contracts - #12 Real World ICO on Ethereum](https://www.youtube.com/watch?v=NxzJiGPyyLw)
 	- [Deploy Crowdsale Smart Contracts - #13 Real World ICO on Ethereum](https://www.youtube.com/watch?v=MYrX3DtKwak)
-
+* [Ethereum Blockchain Developer Guide](https://ethereum-blockchain-developer.com/)
 
 ### Vyper
 * [Vyper Programming Tutorials - YouTube](https://youtube.com/playlist?list=PLFPZ8ai7J-iQMTChqif-XVP8DYABA4rx1)
