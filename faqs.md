@@ -1,5 +1,20 @@
 # EVM FAQs
 
+#### Q. What is Total supply, Max supply, circulating supply?
+__Max supply__: tokens that will ever be generated
+
+__Total supply__: tokens that exist currently = `circulating + locked - burned`
+
+__Circulating supply__: tokens that are in circulation i.e. liquid amount like tradable,
+
+__Locked tokens__: tokens that are staked or locked into some contract i.e. non-liquid
+
+> Noticing the supply of a token can be a good indicator of its future. The circulating supply of a token is increased by developers by active mining. If the circulating supply keeps increasing, then investors can expect the value of the token to go up. On the contrary, if too many tokens are released, the value might drop as well.
+
+__Marketcap of a token__: `Market price * circulating supply`
+
+Small-cap cryptocurrencies are therefore riskier. While large-cap cryptocurrencies often potentially guarantee better returns and safety.
+
 #### Q. What are the factors which impact the resource requirements of running a node in a decentralized network?
 - Bandwidth: The cost of downloading and broadcasting any blockchain-related data
 - Compute: The cost of running computations inside scripts or smart contracts
@@ -78,8 +93,11 @@ Read more:
 - https://ethereum.org/en/developers/docs/scaling/layer-2-rollups/
 - https://finematics.com/rollups-explained/
 - https://hackernoon.com/polygon-vs-optimistic-and-zk-rollups-an-in-depth-comparison-dn2035c6
+- https://research.paradigm.xyz/rollups
 
 #### Q. how to cancel a unmined transaction?
+Canceling: This is when you want to ‘undo’ your transaction. You don’t want it to go through, so you generate a 0 ETH transaction to your own address with the purpose of preventing a previous transaction from “going through” / “being mined” / being included in the blockchain.
+
 #### Q. what is EIP-1559?
 #### Q. how is address determined from mnemonics?
 #### Q. why eth has gas cost, but not Bitcoin?
