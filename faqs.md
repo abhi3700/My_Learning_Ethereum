@@ -98,8 +98,8 @@ Read more:
 #### Q. What is nonce?
 A nonce is an abbreviation for “number only used once,” referring to the total number of confirmed transactions sent from the given Ethereum address.
 
-#### Q. how to cancel a unmined transaction?
-Canceling: This is when you want to ‘undo’ your transaction. You don’t want it to go through, so you generate a 0 ETH transaction to your own address with the purpose of preventing a previous transaction from “going through” / “being mined” / being included in the blockchain.
+#### Q. how to cancel a unconfirmed/pending transaction?
+This is when you want to ‘undo’ your transaction (in pending state). You don’t want it to go through, so you generate a 0 ETH transaction to your own address with the purpose of preventing a previous transaction from “going through” / “being mined” / being included in the blockchain.
 
 Before sending this second transaction, users need to note the nonce being used by the original pending transaction and then reuse the same nonce they noted.
 
