@@ -1,5 +1,12 @@
 # EVM FAQs
 
+#### Q. Is Ethereum based on UTXO model? If not, which one?
+No.
+
+It is based on Account/balance model.
+	- __Pros__: can be Smart contract compatible
+	- __Cons__: double spending problem which is handled by introducing nonce for every address (from where the transaction has been requested).
+
 #### Q. What is Total supply, Max supply, circulating supply?
 __Max supply__: tokens that will ever be generated
 
@@ -96,7 +103,17 @@ Read more:
 - https://research.paradigm.xyz/rollups
 
 #### Q. What is nonce?
-A nonce is an abbreviation for “number only used once,” referring to the total number of confirmed transactions sent from the given Ethereum address.
+A nonce is an abbreviation for “number only used once,” referring to the total number of confirmed transactions sent `from` the given Ethereum address.
+
+> NOTE: nonce is generally defined in a transaction struct/data for slow networks like Bitcoin, Ethereum (PoW networks)to prevent "double spending".
+> Double spends are possible if you can mine blocks faster than the rest of the network and can "switch" the active longest chain.
+
+#### Q. How to get total no. of confirmed transactions done by an address?
+Get the nonce value of an address.
+
+#### Q. How to get total no. of confirmed transactions done from/to an address?
+M-1: Use API which get the data from node (stores transactions into a regular database like `postgres`).
+M-2: Download the Blockchain data into a traditional database format (like `postgres`, `Redis`, etc.) & then make a query for an address >> store into array >> get the array length.
 
 #### Q. how to cancel a unconfirmed/pending transaction?
 This is when you want to ‘undo’ your transaction (in pending state). You don’t want it to go through, so you generate a 0 ETH transaction to your own address with the purpose of preventing a previous transaction from “going through” / “being mined” / being included in the blockchain.
