@@ -21,6 +21,12 @@ You could literally go in and create your own private key, let’s say 0xFF00FF0
 
 The public key is for the public, the private key is always only for you.
 
+> The private key creates a signature. The public key verifies the signature.
+
+Here, the person/EOA encrypts a transaction (actually a message in JSON format) with `private key`.
+
+THe verifier decrypts the encrypted transaction using `public key.`
+
 ##### 3. address
 
 The address is obtained via these 2 steps:
