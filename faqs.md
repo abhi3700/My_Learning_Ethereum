@@ -1,5 +1,60 @@
 # EVM FAQs
 
+#### Q. What is the sequence of private key, public key & address? What is their relation between them?
+Generation sequence:
+
+* `private key` -> `public key` -> `address`
+
+But, not vice versa.
+
+##### 1. private key
+
+> Ethereum Private Keys are 64 random hex characters or 32 random bytes.
+
+A private key in Ethereum is nothing else than 64 random hex characters. As a short reminder: Hexadecimal is going from 0 to F, which is 0 to 15 in decimal numbers. So there are 64 random values between 0 and 15, or 0 to F. That translates to 256 bits or 32 bytes.
+
+You could literally go in and create your own private key, let’s say 0xFF00FF00FF00FF00FF00.. And so on. The trick here is to make it really random. So nobody can guess it. And that is why you should not create your own private key yourself from the top of your head.
+
+##### 2. public key
+
+>  'private key' -> 'public key' (using ECDSA).
+
+The public key is for the public, the private key is always only for you.
+
+##### 3. address
+
+The address is obtained via these 2 steps:
+
+a. Hashing the public key i.e. `SHA3(<public_key>)`. Then, you should get a `64` characters long string. That are `32` bytes.
+b. Snip `20` bytes from that address.
+
+#### Q. How is private key handled by a wallet during sending transaction to a network?
+The private key is encrypted (symmetric) by a password (stored in the device).
+
+#### Q. How does a private key create a signature which is then verified by public key?
+First a simple example: sign a document via _DocuSign_.
+
+1. Whenever any document is supposed to be signed by a person with email-id,
+2. The person owning the email-id, shall have to login & access the file. And then make a signature on the doc.
+
+Similarly, in Blockchain world, the public key is the identifier of a person. But, to verify the public key ownership, one has to have the private key. So, then the person unlock the wallet (where the private key is stored). And then signs the transaction i.e. encrypt the transaction with the private key. The encrypted transaction when reaches to the block producer, then it is decrypted by the public key (publicly available to everyone).
+
+__Analogy__:
+
+1. Document <--> Transaction
+2. Email id <--> Address (or public key in other blockchains like EOS, WAX)
+3. Login password, OTP <--> private key
+4. Handwritten signature done digitally <--> cryptographic signature
+
+![](images/Private_key_signing.png)
+
+Alice signs a message—"Hello Bob!"—by appending to the original message a version encrypted with her private key. Bob receives both the message and signature. He uses Alice's public key to verify the authenticity of the message, i.e. that the encrypted copy, decrypted using the public key, exactly matches the original message.
+
+
+Read more:
+
+- [Digital Signatures and Blockchain: How DocuSign Does It](https://www.youtube.com/watch?v=Y0QcB0nkWoo)
+
 #### Q. Is Ethereum based on UTXO model? If not, which one?
 No.
 
