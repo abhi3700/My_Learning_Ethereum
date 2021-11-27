@@ -95,8 +95,13 @@ Read more:
 - https://hackernoon.com/polygon-vs-optimistic-and-zk-rollups-an-in-depth-comparison-dn2035c6
 - https://research.paradigm.xyz/rollups
 
+#### Q. What is nonce?
+A nonce is an abbreviation for “number only used once,” referring to the total number of confirmed transactions sent from the given Ethereum address.
+
 #### Q. how to cancel a unmined transaction?
 Canceling: This is when you want to ‘undo’ your transaction. You don’t want it to go through, so you generate a 0 ETH transaction to your own address with the purpose of preventing a previous transaction from “going through” / “being mined” / being included in the blockchain.
+
+Before sending this second transaction, users need to note the nonce being used by the original pending transaction and then reuse the same nonce they noted.
 
 #### Q. what is EIP-1559?
 #### Q. how is address determined from mnemonics?
