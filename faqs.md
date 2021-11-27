@@ -3,9 +3,13 @@
 #### Q. Is Ethereum based on UTXO model? If not, which one?
 No.
 
-It is based on Account/balance model.
+It is based on Account model.
 	- __Pros__: can be Smart contract compatible
 	- __Cons__: double spending problem which is handled by introducing nonce for every address (from where the transaction has been requested).
+
+For more, Read these:
+
+- [Cryptoeconomics - 1.4 - UTXO Model](https://www.youtube.com/watch?v=-xoCoZGJ9AQ)
 
 #### Q. What is Total supply, Max supply, circulating supply?
 __Max supply__: tokens that will ever be generated
