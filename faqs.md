@@ -67,13 +67,42 @@ Read more:
 #### Q. Is Ethereum based on UTXO model? If not, which one?
 No.
 
-It is based on Account model.
+It is based on Account-Balance model.
 	- __Pros__: can be Smart contract compatible
-	- __Cons__: double spending problem which is handled by introducing nonce for every address (from where the transaction has been requested).
+	- __Cons__: double spending problem which is handled by introducing `nonce` for every address (from where the transaction has been requested).
 
 For more, Read these:
 
 - [Cryptoeconomics - 1.4 - UTXO Model](https://www.youtube.com/watch?v=-xoCoZGJ9AQ)
+- https://medium.com/bitbees/what-the-heck-is-utxo-ca68f2651819
+
+#### Q. What is UTXO? How is it different from Account-Balance model, used in Ethereum?
+
+![UTXO vs Account-Balance model](images/utxo_vs_account_model.png)
+
+![Alice & Bob using UTXO model](images/utxo_model_alice_bob.png)
+
+In the real-world, the UTXOs are almost similar to physical cash/coins. When one tries to spend cash in a shop, he gives up the entire note, takes the goods, and takes back the remaining change. If one has a cash note of 10 bucks and wants to buy good priced 5 bucks, he doesn’t divide the note in half for the payment. Rather he gives up the full note, and takes a new 5 bucks note as a change along with the goods.
+
+UTXOs work in similar fashion. In a transaction, UTXOs are always consumed in full, even if the required payment is of the partial value of the original UTXO. For example, referring to the figure above, suppose Alice wants to pay Bob for some goods/services which cost 6 BTC. But Alice only has a single UTXO of 10 BTC. She will create a transaction that will consume up this whole UTXO of 10 BTC and create two new UTXOs, one for Bob with 6 BTC and one for herself with 4 BTC value. The UTXO Alice pays to herself is known as the change UTXO, and her wallet software automatically tracks this UTXO to give her the final balance of 4 BTC. Every time a payment is made for a smaller value than the available UTXOs, the wallet automatically creates the change UTXO for the user.
+
+##### About
+
+- UTXOs are locked up box full of coins.
+- The lock can be opened by providing the right key.
+- When you spend some bitcoin, you create a transaction (or the wallet does it for you) that consumes some old UTXOs and creates a bunch of new UTXOs.
+- UTXOs are always consumed as a whole, and change UTXO is created automatically by your wallet to get back the balance.
+- Every UTXO is associated with an address. Different types of address denotes different types of UTXOs.
+- You should always be aware of your keys to open up the lock in your UTXO. Not Your Keys, Not Your Coins.
+
+##### Comparo
+* _Pros_: UTXO feels inherently similar to physical cash, whereas, in digital payment platforms, we deal with accounts.
+* The account model is simply, where users have one or multiple accounts, the amounts can be anything, and there is no concept of change back. Credit is added to the balance, and debit is subtracted away.
+* _Pros_: UTXO models are better for scalability and privacy. The transaction logic is simplified as each UTXO can only be consumed once and as a whole. Because the logic is simpler, transaction verifications can be made parallel.
+* _Cons_: UTXO model is inherently unintuitive thus most of the wallets had to abstract away the UTXOs and simulate normal account like UI for users.
+* _Cons_: UTXOs are limited in terms of more exotic smart contracts that executes based on the user’s total account balance. Because of these reasons, Ethereum rejected the UTXO model and they went for a simple and more flexible account-balance model.
+
+> NOTE: But in the end, they both have their tradeoffs.
 
 #### Q. What is Total supply, Max supply, circulating supply?
 __Max supply__: tokens that will ever be generated
@@ -104,8 +133,8 @@ FYI, a transaction hash can be created by having the params (from, to, data, val
 
 > NOTE: Dependency on a block explorer is not recommended, as it is a central entity and might have delayed information.
 
-#### Q. which public-key/assymetric cryptography is used in Ethereum Blockchain?
-Elliptic Curve Digital Signature Algorithm (ECDSA) is used public-private key pairs.
+#### Q. which public-key/assymetric encryption is used in Ethereum Blockchain?
+Elliptic Curve Digital Signature Algorithm (ECDSA) is used in generating public-private key pairs.
 
 > NOTE: Using private key, public key can be determined, but not vice versa.
 
