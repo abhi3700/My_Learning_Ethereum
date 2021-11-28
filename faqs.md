@@ -31,8 +31,11 @@ THe verifier decrypts the encrypted transaction using `public key.`
 
 The address is obtained via these 2 steps:
 
-a. Hashing the public key i.e. `SHA3(<public_key>)`. Then, you should get a `64` characters long string. That are `32` bytes.
-b. Snip `20` bytes from that address.
+a. Hashing the public key i.e. `keccak-256(<public_key>)`. Then, you should get a `64` characters long string. That are `32` bytes.
+
+> keccak-256 comes under SHA-3 family.
+
+b. Snip last `20` bytes from that hashed `32` bytes. And then just add '0x' at the start of the address.
 
 #### Q. How is private key handled by a wallet during sending transaction to a network?
 The private key is encrypted (symmetric) by a password (stored in the device).
