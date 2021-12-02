@@ -220,3 +220,13 @@ Before sending this second transaction, users need to note the nonce being used 
 #### Q. what is EIP-1559?
 #### Q. how is address determined from mnemonics?
 #### Q. why eth has gas cost, but not Bitcoin?
+
+#### Q. Can a contract initiate a transaction?
+Never. It can only be initiated by an EOA.
+
+They have code and must execute their function if an EOA or another contract sends a transaction.
+
+#### Q. Does contract is charged gas fee when making a transaction like transfer ETH from contract to caller?
+Never.
+
+All transactions begin with a transaction signed by an EOA. If it goes to a contract, that contract may do stuff. The signer pays for gas. That contract may send a message to another contract making it do stuff. The signer still pays for the gas. And so on. No matter how long the chain of contracts and messages is, the original signer pays for all gas. [Source](https://ethereum.stackexchange.com/questions/42349/does-it-cost-gas-when-sending-ether-from-a-contract-to-an-address?rq=1)
