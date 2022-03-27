@@ -161,6 +161,11 @@ Ethereum (including all sidechains) resources available here.
 	- [Create Token Vesting with Smart Contracts - #12 Real World ICO on Ethereum](https://www.youtube.com/watch?v=NxzJiGPyyLw)
 	- [Deploy Crowdsale Smart Contracts - #13 Real World ICO on Ethereum](https://www.youtube.com/watch?v=MYrX3DtKwak)
 * [Ethereum Blockchain Developer Guide](https://ethereum-blockchain-developer.com/)
+* Cheatsheets
+	- [Solidity Cheatsheet](https://intellipaat.com/mediaFiles/2019/03/Solidity-Cheat-Sheet.jpg) A comprehensive Solidity Cheatsheet.
+	- [Solidity Cheatsheet by Manojpramesh](https://github.com/manojpramesh/solidity-cheatsheet) Cheat sheet and best practices for solidity. Write smart contracts for Ethereum.
+* [Understanding Delegate Call by Nick Mudge](https://eip2535diamonds.substack.com/p/understanding-delegatecall-and-how?s=r)
+* [Interact with a SC](https://www.web3.university/courses/intro-to-smart-contracts/interact-with-your-smart-contract)
 
 ### Vyper
 * [Vyper Programming Tutorials - YouTube](https://youtube.com/playlist?list=PLFPZ8ai7J-iQMTChqif-XVP8DYABA4rx1)
