@@ -134,6 +134,7 @@ Ethereum (including all sidechains) resources available here.
 ## Education, Academics, Course
 ### Solidity
 * Learn by coding - [Course](https://www.smartcontract.engineer/), [Solidity by Example](https://solidity-by-example.org/)
+* Smart Contract Breakdown - <https://www.solidnoob.com/smart-contract-breakdowns>
 * Solidity Cheatsheet and Best practices - [Website](https://manojpramesh.github.io/solidity-cheatsheet/), [Github](https://github.com/manojpramesh/solidity-cheatsheet)
 * Learning Solidity Part 1: Contract Dev with MetaMask - https://karl.tech/learning-solidity-part-1-deploy-a-contract/
 * Learning Solidity Part 2: Commit-Reveal Voting - https://karl.tech/learning-solidity-part-2-voting/
