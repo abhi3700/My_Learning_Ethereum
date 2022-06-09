@@ -17,7 +17,7 @@ You could literally go in and create your own private key, let’s say 0xFF00FF0
 
 ##### 2. public key
 
->  'private key' -> 'public key' (using ECDSA).
+>  'private key' -> 'public key' (`secp256k1` signing algorithm with ECDSA).
 
 The public key is for the public, the private key is always only for you.
 
