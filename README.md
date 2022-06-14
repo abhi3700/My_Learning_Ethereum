@@ -35,7 +35,7 @@ Ethereum (including all sidechains) resources available here.
 #### Ethereum
 
 - Mainnet Chain API
-  - Get your API key for Web3.js or Web.py
+  - Get your API key for web3 libs
     - https://infura.io/dashboard
     - https://admin.moralis.io/speedyNodes
     - https://www.alchemyapi.io
@@ -47,17 +47,18 @@ Ethereum (including all sidechains) resources available here.
       - https://infura.io/dashboard
       - https://admin.moralis.io/speedyNodes
       - https://www.alchemyapi.io
-    - **Ropsten**
-      - Get faucet from [here](https://faucet.ropsten.be/)
-      - Get your API key for Web3.js or Web.py
-        - https://infura.io/dashboard
-        - https://admin.moralis.io/speedyNodes
-        - https://www.alchemyapi.io
+  - **Ropsten**
+    - Get faucet from [here](https://faucet.ropsten.be/)
+    - Get your API key for web3 libs
+      - https://infura.io/dashboard
+      - https://admin.moralis.io/speedyNodes
+      - https://www.alchemyapi.io
 
 #### Polygon
 
 - Mainnet & Testnet Chain API
-  - Get your API key for Web3.js or Web.py
+  - Get testnet faucet from [here](https://mumbaifaucet.com/)
+  - Get your API key for web3 libs
     - https://infura.io/dashboard
     - https://admin.moralis.io/speedyNodes
     - https://www.alchemyapi.io
@@ -65,25 +66,27 @@ Ethereum (including all sidechains) resources available here.
 #### Binance Smart Chain (BSC)
 
 - Mainnet & Testnet Chain API
-  - Get your API key for Web3.js or Web.py
+  - Get testnet faucet from [here](https://testnet.binance.org/faucet-smart)
+  - Get your API key for web3 libs
+    - https://admin.moralis.io/speedyNodes
+    - https://www.alchemyapi.io
+
+#### Avalanche
+
+- Mainnet & Testnet Chain API
+  - Get testnet faucet from [here](https://faucet.avax.network/)
+  - Get your API key for web3 libs
     - https://infura.io/dashboard
     - https://admin.moralis.io/speedyNodes
     - https://www.alchemyapi.io
 
 #### Arbitrum
 
-- Mainnet Chain API
+- Mainnet & Testnet Chain API
   - Get your API key for Web3.js or Web.py
     - https://infura.io/dashboard
     - https://admin.moralis.io/speedyNodes
     - https://www.alchemyapi.io
-- Testnet Chain API
-  - **Rinkeby**
-    - Get faucet from [here](https://www.rinkeby.io/#faucet)
-    - Get your API key for Web3.js or Web.py
-      - https://infura.io/dashboard
-      - https://admin.moralis.io/speedyNodes
-      - https://www.alchemyapi.io
 - Developer portal: https://developer.offchainlabs.com/docs/developer_quickstart
 - Github: https://github.com/OffchainLabs
 - Medium: https://offchain.medium.com/
@@ -106,6 +109,7 @@ Ethereum (including all sidechains) resources available here.
   - https://etherchain.org/
   - https://ethplorer.io/
   - https://live.blockcypher.com/eth/
+- Get chainlink faucets for different networks: https://faucets.chain.link/fuji
 - Multi-signature wallet: https://gnosis-safe.io/app/#/welcome
 - View private variables in a contract - https://github.com/realdiganta/evm-storage-crawler
 - Online ABI Encoding Service - https://abi.hashex.org/#
@@ -165,9 +169,9 @@ Ethereum (including all sidechains) resources available here.
 
 ## Hackathons
 
-* [Chainlink Spring 2022 Hackathon](https://www.youtube.com/watch?v=cIMSurFsMG8&list=PLVP9aGDn-X0RXx1y3-GdzLWfetXiNqNiE)
-* [Chainlink Spring 2021 Hackathon](https://www.youtube.com/watch?v=EzZEx0lumr0&list=PLVP9aGDn-X0Shwzuvw12srE-O6WKsGvY_)
-* [Chainlink Virtual 2020 Hackathon](https://www.youtube.com/watch?v=35M0eGATpM0&list=PLVP9aGDn-X0TQIho0snbpDNA_Zc_O4lX4)
+- [Chainlink Spring 2022 Hackathon](https://www.youtube.com/watch?v=cIMSurFsMG8&list=PLVP9aGDn-X0RXx1y3-GdzLWfetXiNqNiE)
+- [Chainlink Spring 2021 Hackathon](https://www.youtube.com/watch?v=EzZEx0lumr0&list=PLVP9aGDn-X0Shwzuvw12srE-O6WKsGvY_)
+- [Chainlink Virtual 2020 Hackathon](https://www.youtube.com/watch?v=35M0eGATpM0&list=PLVP9aGDn-X0TQIho0snbpDNA_Zc_O4lX4)
 
 ## Repositories
 
