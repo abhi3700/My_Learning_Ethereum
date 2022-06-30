@@ -30,7 +30,23 @@ Ethereum (including all sidechains) resources available here.
 - pyethereum: python core library for Ethereum project - [Github](https://github.com/ethereum/pyethereum)
 - pyethapp: python based command line client - [Github](https://github.com/ethereum/pyethapp)
 
-### Chains
+### Network
+
+> It might happen that the official network urls may not be properly fetched on Metamask or during SC deployment as it is public. So, connect to the network nodes with your API key provided by following infrastructure providers:
+
+- [Alchemy](https://www.alchemy.com/)
+- [Ankr](https://www.ankr.com/)
+- [Blast (Bware Labs)](https://blastapi.io/)
+- [BlockPI](https://chains.blockpi.io/#/polygon)
+- [Chainstack](https://chainstack.com/build-better-with-polygon/)
+- [DataHub (Figment)](https://datahub.figment.io/)
+- [Getblock](https://getblock.io/en/)
+- [Infura](https://infura.io/)
+- [MaticVigil](https://rpc.maticvigil.com/)
+- [Moralis](https://moralis.io/)
+- [Pocket Network](https://www.portal.pokt.network/)
+- [QuickNode](https://www.quicknode.com/chains/matic)
+- [SettleMint](https://docs.settlemint.com/docs/polygon-connect-to-a-node)
 
 #### Ethereum
 
@@ -62,6 +78,11 @@ Ethereum (including all sidechains) resources available here.
     - https://infura.io/dashboard
     - https://admin.moralis.io/speedyNodes
     - https://www.alchemyapi.io
+
+> NOTE: For Polygon `POS Mainnet: {NetworkName: Polygon, ParentChain: Ethereum, chainId: 137}`
+> and for Polygon `POS Testnet: {NetworkName: Mumbai, ParentChain: Goerli, chainId: 80001}`
+
+More info [here](https://docs.polygon.technology/docs/develop/network-details/network).
 
 #### Binance Smart Chain (BSC)
 
