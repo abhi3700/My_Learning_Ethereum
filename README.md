@@ -138,6 +138,7 @@ More info [here](https://docs.polygon.technology/docs/develop/network-details/ne
   - Price Feed: https://docs.chain.link/docs/using-chainlink-reference-contracts/
   - Random no.: https://docs.chain.link/docs/intermediates-tutorial/
 - Bytecode to Opcode converter tool: https://etherscan.io/opcode-tool
+- SolidLint (on ETH Mainnet): A tool for viewing code - https://www.solidlint.com/
 
 ## Ethereum DApps
 
