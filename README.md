@@ -130,6 +130,7 @@ More info [here](https://docs.polygon.technology/docs/develop/network-details/ne
   - https://etherchain.org/
   - https://ethplorer.io/
   - https://live.blockcypher.com/eth/
+  - https://tryethernal.com/ (for local nodes)
 - Get chainlink faucets for different networks: https://faucets.chain.link/fuji
 - Multi-signature wallet: https://gnosis-safe.io/app/#/welcome
 - View private variables in a contract - https://github.com/realdiganta/evm-storage-crawler
@@ -139,6 +140,16 @@ More info [here](https://docs.polygon.technology/docs/develop/network-details/ne
   - Random no.: https://docs.chain.link/docs/intermediates-tutorial/
 - Bytecode to Opcode converter tool: https://etherscan.io/opcode-tool
 - SolidLint (on ETH Mainnet): A tool for viewing code - https://www.solidlint.com/
+- <u>**Security tools**</u>
+  - [Slither](https://github.com/crytic/slither): static analysis tool (developed by TrailOfBits)
+  - [Manticore](https://github.com/trailofbits/manticore): uses symbolic execution to detect vulnerabilities (developed by TrailOfBits):
+  - [Scribble](https://github.com/ConsenSys/scribble): allows one to annotate a smart contract with properties and raises exceptions when the property is violated.
+  - [MythX](https://mythx.io/): uses symbolic execution to detect vulnerabilities (developed by Consensys)
+  - [Mythril](https://github.com/ConsenSys/mythril): paid cloud service that includes static analysis, symbolic analysis, and fuzzing (developed by Consensys)
+  - [Foundry](https://book.getfoundry.sh/forge/fuzz-testing.html) support for fuzz testing
+  - [Dapptools](https://github.com/dapphub/dapptools/tree/master/src/dapp#property-based-testing) support for fuzz testing
+  - [Certora](https://www.certora.com/): paid service that uses formal verification
+  - [Echidna](https://github.com/crytic/echidna): fuzzing tool (developed by TrailOfBits)
 
 ## Ethereum DApps
 
@@ -164,8 +175,8 @@ More info [here](https://docs.polygon.technology/docs/develop/network-details/ne
 ### Solidity
 
 - Learn by coding - [Course](https://www.smartcontract.engineer/), [Solidity by Example](https://solidity-by-example.org/)
-- Smart Contract Breakdown - <https://www.solidnoob.com/smart-contract-breakdowns>
-- Solidity Cheatsheet and Best practices - [Website](https://manojpramesh.github.io/solidity-cheatsheet/), [Github](https://github.com/manojpramesh/solidity-cheatsheet)
+- Smart Contract Breakdown: <https://www.solidnoob.com/smart-contract-breakdowns>
+- Solidity Cheatsheet and Best practices: [Website](https://manojpramesh.github.io/solidity-cheatsheet/), [Github](https://github.com/manojpramesh/solidity-cheatsheet)
 - Learning Solidity Part 1: Contract Dev with MetaMask - https://karl.tech/learning-solidity-part-1-deploy-a-contract/
 - Learning Solidity Part 2: Commit-Reveal Voting - https://karl.tech/learning-solidity-part-2-voting/
 - Developing Ethereum Smart Contracts for Beginners - https://coursetro.com/courses/20/Developing-Ethereum-Smart-Contracts-for-Beginners
@@ -178,9 +189,23 @@ More info [here](https://docs.polygon.technology/docs/develop/network-details/ne
 - [Safe Remote Purchase contract](https://docs.soliditylang.org/en/latest/solidity-by-example.html#safe-remote-purchase)
 - [Micropayment channel](https://docs.soliditylang.org/en/latest/solidity-by-example.html#micropayment-channel)
 - [LearnETH by Remix](https://remix.ethereum.org/#optimize=false&runs=200&evmVersion=null&version=soljson-v0.6.12+commit.27d51765.js)
-- DApp University Smart Contract Series: - [Build a Real World ICO - #1 Real World ICO on Ethereum](https://www.youtube.com/watch?v=2IqsgSyA8BQ) - [Build a Mintable Token - #2 Real World ICO on Ethereum](https://www.youtube.com/watch?v=ir-IRmMTG4Q) - [Build a Crowdsale Smart Contract - #3 Real World ICO on Ethereum](https://www.youtube.com/watch?v=wfzTtbZEJP8) - [Build a Minted Crowdsale with Smart Contacts - #4 Real World ICO on Ethereum](https://www.youtube.com/watch?v=tb6YPyeRObg) - [Build a Capped Crowdsale with Smart Contacts - #5 Real World ICO on Ethereum](https://www.youtube.com/watch?v=w8UwS2VwBTQ) - [Build a Timed Crowdsale with Smart Contacts - #6 Real World ICO on Ethereum](https://www.youtube.com/watch?v=-CIw7vnVrAA) - [Build a Whitelisted Crowdsale with Smart Contacts - #7 Real World ICO on Ethereum](https://www.youtube.com/watch?v=4yUxgOJKYOM) - [Build a Refundable Crowdsale with Smart Contacts - #8 Real World ICO on Ethereum](https://www.youtube.com/watch?v=5otDOi86y3I) - [Create an ICO Presale with Smart Contracts - #9 Real World ICO on Ethereum](https://www.youtube.com/watch?v=uPeRwDvkuCs) - [Create Token Distribution with Smart Contracts - #11 Real World ICO on Ethereum](https://www.youtube.com/watch?v=k10F8n-jRE4) - [Create Token Vesting with Smart Contracts - #12 Real World ICO on Ethereum](https://www.youtube.com/watch?v=NxzJiGPyyLw) - [Deploy Crowdsale Smart Contracts - #13 Real World ICO on Ethereum](https://www.youtube.com/watch?v=MYrX3DtKwak)
+- DApp University Smart Contract Series:
+  - [Build a Real World ICO - #1 Real World ICO on Ethereum](https://www.youtube.com/watch?v=2IqsgSyA8BQ)
+  - [Build a Mintable Token - #2 Real World ICO on Ethereum](https://www.youtube.com/watch?v=ir-IRmMTG4Q)
+  - [Build a Crowdsale Smart Contract - #3 Real World ICO on Ethereum](https://www.youtube.com/watch?v=wfzTtbZEJP8)
+  - [Build a Minted Crowdsale with Smart Contacts - #4 Real World ICO on Ethereum](https://www.youtube.com/watch?v=tb6YPyeRObg)
+  - [Build a Capped Crowdsale with Smart Contacts - #5 Real World ICO on Ethereum](https://www.youtube.com/watch?v=w8UwS2VwBTQ)
+  - [Build a Timed Crowdsale with Smart Contacts - #6 Real World ICO on Ethereum](https://www.youtube.com/watch?v=-CIw7vnVrAA)
+  - [Build a Whitelisted Crowdsale with Smart Contacts - #7 Real World ICO on Ethereum](https://www.youtube.com/watch?v=4yUxgOJKYOM)
+  - [Build a Refundable Crowdsale with Smart Contacts - #8 Real World ICO on Ethereum](https://www.youtube.com/watch?v=5otDOi86y3I)
+  - [Create an ICO Presale with Smart Contracts - #9 Real World ICO on Ethereum](https://www.youtube.com/watch?v=uPeRwDvkuCs)
+  - [Create Token Distribution with Smart Contracts - #11 Real World ICO on Ethereum](https://www.youtube.com/watch?v=k10F8n-jRE4)
+  - [Create Token Vesting with Smart Contracts - #12 Real World ICO on Ethereum](https://www.youtube.com/watch?v=NxzJiGPyyLw)
+  - [Deploy Crowdsale Smart Contracts - #13 Real World ICO on Ethereum](https://www.youtube.com/watch?v=MYrX3DtKwak)
 - [Ethereum Blockchain Developer Guide](https://ethereum-blockchain-developer.com/)
-- Cheatsheets - [Solidity Cheatsheet](https://intellipaat.com/mediaFiles/2019/03/Solidity-Cheat-Sheet.jpg) A comprehensive Solidity Cheatsheet. - [Solidity Cheatsheet by Manojpramesh](https://github.com/manojpramesh/solidity-cheatsheet) Cheat sheet and best practices for solidity. Write smart contracts for Ethereum.
+- Cheatsheets
+  - [Solidity Cheatsheet](https://intellipaat.com/mediaFiles/2019/03/Solidity-Cheat-Sheet.jpg) A comprehensive Solidity Cheatsheet.
+  - [Solidity Cheatsheet by Manojpramesh](https://github.com/manojpramesh/solidity-cheatsheet) Cheat sheet and best practices for solidity. Write smart contracts for Ethereum.
 - [Understanding Delegate Call by Nick Mudge](https://eip2535diamonds.substack.com/p/understanding-delegatecall-and-how?s=r)
 - [Interact with a SC](https://www.web3.university/courses/intro-to-smart-contracts/interact-with-your-smart-contract)
 
@@ -240,6 +265,7 @@ More info [here](https://docs.polygon.technology/docs/develop/network-details/ne
 
 - [Rob Hitchens](https://github.com/rob-Hitchens)
 - Mudit Gupta - [Twitter](https://twitter.com/mudit__gupta), [Blog](https://mudit.blog/), [YouTube](https://www.youtube.com/channel/UCiXZDSsQiZE--o8vF2yPyvg)
+- [Nazar Ilamanov](https://twitter.com/nazar_ilamanov)
 
 ## Organizations to follow
 
